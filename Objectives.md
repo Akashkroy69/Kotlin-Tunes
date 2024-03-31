@@ -1,4 +1,4 @@
-"#Objectives Of The Assignment"
+# Objectives Of The Assignment
 To effectively solve this assignment within the given time frame, you should be familiar with the following concepts and skills:
 
 1. **Object-Oriented Programming (OOP):**
