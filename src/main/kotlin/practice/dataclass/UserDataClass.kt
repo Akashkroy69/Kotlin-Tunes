@@ -27,4 +27,15 @@ fun main() {
 }
 
 
+//agenda: explain how the objects are created, how the hashcode are being provided to optimize memory
+
+//why do we need this data classes:
+//1. Use data classes when you need simple containers for holding data with minimal behavior.
+//2. They're particularly useful for modeling DTOs (Data Transfer Objects), POJOs (Plain Old Java Objects),
+// entities in database applications, and other similar scenarios.
+
+
+//question: know more on mutability on data classes
+
+
 
