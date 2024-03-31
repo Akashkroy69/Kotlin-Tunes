@@ -10,6 +10,20 @@ fun main() {
 
 //  equals(), hashCode(), toString(), copy()
 
+    println(user1 == user2)
+//    print(user1.equals(user2))
+    println(user1.hashCode() == user2.hashCode())
+    println(user1.toString())
+    println("use1 hashcode: ${user1.hashCode()}, user2 hashcode: ${user2.hashCode()}")
+
+    val user4 = user1.copy()
+    println(user4.toString())
+
+    val user5 = user1.copy(age=30)
+    println(user5.toString())
+
+
+
 }
 
 
