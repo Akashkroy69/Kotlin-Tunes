@@ -32,7 +32,6 @@ In Kotlin, both `arrayOf` and `arrayListOf` are used to create collections, but 
 - **`arrayListOf`:**
     - Use `arrayListOf` when you need a dynamic collection that can grow or shrink in size during runtime.
     - Suitable for scenarios where you need to perform dynamic operations like adding or removing elements, or when the size of the collection is not known in advance.
-
 ### Example:
 ```kotlin
 // arrayOf Example
