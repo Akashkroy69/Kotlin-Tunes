@@ -48,3 +48,35 @@ In this example:
 - Nodes with keys greater than 10 are in the right subtree.
 
 Binary search trees provide efficient searching, insertion, and deletion operations, making them a fundamental data structure in computer science with various practical applications.
+
+Binary search trees (BSTs) are used in various real-life applications where efficient searching, insertion, and deletion operations are required. Here are some common examples:
+
+1. **Database Indexing:**
+    - Binary search trees are used in database management systems to index data efficiently.
+    - Each node in the BST represents a unique key value, and the tree is organized such that searching, insertion, and deletion operations can be performed in O(log n) time complexity.
+
+2. **File Systems:**
+    - File systems often use BSTs for directory structures and file lookup operations.
+    - In a file system, directories and files can be organized as nodes in a BST, where each node represents a directory or file, and the hierarchical structure is maintained based on the ordering of keys.
+
+3. **Symbol Tables in Compilers:**
+    - Compilers use symbol tables to store identifiers (such as variables, functions, classes) and their associated attributes.
+    - Binary search trees are commonly used to implement symbol tables, allowing for efficient lookup and management of identifiers during compilation.
+
+4. **Network Routing:**
+    - Binary search trees can be used in network routing algorithms for efficiently storing and retrieving routing information.
+    - Each node in the BST can represent a network address or prefix, and the tree's structure can facilitate fast routing table lookups in routers and switches.
+
+5. **Genetic Family Trees:**
+    - Binary search trees can represent genetic family trees or pedigrees, where each node represents an individual and their relationships.
+    - The ordering of nodes in the BST can represent hierarchical relationships (e.g., parent-child relationships), making it easier to traverse and query the family tree.
+
+6. **Priority Queues:**
+    - Priority queues, which store elements based on their priority, can be implemented using binary search trees.
+    - The BST structure allows for efficient insertion and removal of elements based on their priority, with the highest (or lowest) priority element always at the root.
+
+7. **Dictionary Implementations:**
+    - Dictionaries or associative arrays, which map keys to values, can be implemented using binary search trees.
+    - Binary search trees provide efficient key-based lookup operations, making them suitable for dictionary implementations in various applications.
+
+These are just a few examples of real-life applications where binary search trees are used. They provide an efficient and flexible data structure for organizing and managing data in a sorted manner, making them invaluable in various fields of computer science and software engineering.
