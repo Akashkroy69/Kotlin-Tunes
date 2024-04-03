@@ -47,6 +47,7 @@ In this example:
 - Nodes with keys less than 10 are in the left subtree.
 - Nodes with keys greater than 10 are in the right subtree.
 
+# Implications of BST in Practice:
 Binary search trees provide efficient searching, insertion, and deletion operations, making them a fundamental data structure in computer science with various practical applications.
 
 Binary search trees (BSTs) are used in various real-life applications where efficient searching, insertion, and deletion operations are required. Here are some common examples:
